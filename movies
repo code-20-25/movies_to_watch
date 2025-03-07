@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Technical Documentation Page</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<style>
+body{
+  display: flex;
+  background: #f2f2f2;
+  width: 100vw;
+}
+.head{
+  display: flex;
+align-items: start;
+justify-content: space-between;
+}
+.head1{
+width: 40%;
+border: 1px solid black;
+position: fixed;
+}
+.head2{
+  margin-left: 40%;
+  width: 60%;
+  padding: 10px
+}
+.head1,.head2{
+margin-top: 5px;
+}
+.main-section p{
+  font: normal 16px impact,sans-serif;
+  padding: 0px 10px 0px 10px;
+  text-align: justify;
+}
+.nav-link{
+text-decoration: none;
+  color: black;
+  font: normal 16px arial;
+  display: block;
+  border: 1px solid grey;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+</style>
+    </head>
+    <body>
+      <div class="head">
+        <div class="head1">
+      <nav id="navbar">
+  <header>5 Best Movies of All Time</header>
+  <a href="#The_Shawshank_Redemption"  class="nav-link">The Shawshank Redemption</a>
+  <a href="#The_Godfather" class="nav-link">The Godfather</a>
+  <a href="#The_Dark_Knight" class="nav-link">The Dark Knight</a>
+  <a href="#The_Lord_of_the_Rings" class="nav-link">The Lord of the Rings</a>
+  <a href="#Inception" class="nav-link">Inception </a>
+</nav>
+</div>
+<div class="head2">
+<main id="main-doc">
+<section class="main-section"  id="The_Shawshank_Redemption">
+  <header>The Shawshank Redemption </header>
+  <article>
+  <p> The Shawshank Redemption is considered a great film because it tells a powerful story about hope, perseverance, and the human spirit in the face of seemingly insurmountable odds, with a well-crafted plot, strong character development, and a deeply relatable theme of overcoming injustice, making it resonate with audiences on a profound level.</p>
+    <p>Many also praise its excellent acting, particularly from Morgan Freeman as the narrator, and the satisfyingly well-executed escape plan at the end. </p>
+  <p>Andy Dufresne (Tim Robbins) is sentenced to two consecutive life terms in prison for the murders of his wife and her lover and is sentenced to a tough prison.
+  However, only Andy knows he didn't commit the crimes. While there, he forms a friendship with Red (Morgan Freeman), experiences brutality of prison life, adapts, helps the warden, etc., all in 19 years.
+  </p>
+<code>
+Tickets = $14.00;
+</code>
+  <ul>
+    <li>Release date: October 14, 1994 (USA)</li>
+    <li>Director: Frank Darabont</li>
+    <li>Awards: Japan Academy Prize for Outstanding Foreign Language Film </li>
+    </ul>
+    </article>
+</section>
+<section class="main-section" id="The_Godfather">
+  <header>The Godfather</header>
+  <article>
+    <p>Widely regarded as one of the greatest films of all time, this mob drama, based on Mario Puzo's novel of the same name, focuses on the powerful Italian-American crime family of Don Vito Corleone (Marlon Brando).</p>
+  <p> When the don's youngest son, Michael (Al Pacino), reluctantly joins the Mafia, he becomes involved in the inevitable cycle of violence and betrayal. </p>
+<code>
+Tickets = $15.00;
+</code>
+  <p>Although Michael tries to maintain a normal relationship with his wife, Kay (Diane Keaton), he is drawn deeper into the family business.</p>
+  <p>The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</p>
+  <pre>
+<code>
+Tickets = $15.75;
+</code>
+</pre>
+  <ul>
+    <li>Release date: March 24, 1972 (USA)</li>
+    <li>Director: Francis Ford Coppola</li>
+    <li>Awards: Academy Award for Best Picture </li>
+    </ul>
+    </article>
+</section>
+<section class="main-section" id="The_Dark_Knight">
+  <header>The Dark Knight</header>
+  <article>
+  <p>With the help of allies Lt. Jim Gordon (Gary Oldman) and DA Harvey Dent (Aaron Eckhart), Batman (Christian Bale) has been able to keep a tight lid on crime in Gotham City.</p>
+<code>
+Tickets = $15.00;
+</code>
+  <p> But when a vile young criminal calling himself the Joker (Heath Ledger) suddenly throws the town into chaos, the caped Crusader begins to tread a fine line between heroism and vigilantism.</p>
+  <p>When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.
+    </p>
+<code>
+Tickets = $15.00;
+</code>
+  <ul>
+    <li><samp>Release date: July 18, 2008 (USA)</samp></li>
+    <li>Director: Christopher Nolan</li>
+    <li>Awards: Empire Award for Best Film ·</li>
+    </ul>
+    </article>
+</section>
+<section class="main-section" id="The_Lord_of_the_Rings">
+  <header>The Lord of the Rings</header>
+  <article>
+    <span><samp>One of the parts of the series</samp></span>
+    <p>Set in the fictional world of Middle-earth, the films follow the hobbit Frodo Baggins as he and the Company of the Ring embark on a quest to destroy the One Ring to defeat its maker, the Dark Lord Sauron.</p>
+  <p> The Company eventually splits up and Frodo continues the quest with his loyal companion Sam and, eventually, the treacherous Gollum.</p>
+<code>
+Tickets = $15.00;
+</code>
+  <p>A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.</p>
+  <ul>
+    <li>Directed by	Peter Jackson</li>
+    <li>Based on	The Lord of the Rings
+by J. R. R. Tolkien</li>
+    <li>Budget: Total (3 films): $281 million</li>
+    </ul>
+    </article>
+</section>
+<section class="main-section" id="Inception">
+  <header>Inception </header>
+  <p><em>Dom Cobb (Leonardo DiCaprio)</em> is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious. </p>
+<code>
+Tickets = $13.00;
+</code>
+  <p>His skill has made him a hot commodity in the world of corporate espionage but has also cost him everything he loves.</p>
+  <p>Cobb gets a chance at redemption when he is offered a seemingly impossible task: Plant an idea in someone's mind. If he succeeds, it will be the perfect crime, but a dangerous enemy anticipates Cobb's every move.</p>
+  
+  <ul>
+    <li>Release date: July 13, 2010 (USA)</li>
+    <li>Director: Christopher Nolan</li>
+    <li>Awards: Academy Award for Best Visual Effects </li>
+    </ul>
+    </article>
+</section>
+</main>
+</div>
+</div>
+      </body>
+      </html>
